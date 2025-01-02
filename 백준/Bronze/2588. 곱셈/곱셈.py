@@ -1,0 +1,7 @@
+num1 =int(input())
+num2 =int(input())
+num2_list_str = str(num2)
+print(num1 * int(num2_list_str[2]))
+print(num1 * int(num2_list_str[1]))
+print(num1 * int(num2_list_str[0]))
+print(num1* num2)
